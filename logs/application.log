@@ -1,0 +1,45 @@
+23-08-2018 15:42:34.787 [main] INFO  c.f.FrysOrderServiceApplication_v2.logStarting - Starting FrysOrderServiceApplication_v2 on Trantor94 with PID 13076 (C:\Users\gagandeep.singh1\git_workspace\FrysOrderService_v2\target\classes started by gagandeep.singh1 in C:\Users\gagandeep.singh1\git_workspace\FrysOrderService_v2)
+23-08-2018 15:42:34.803 [main] INFO  c.f.FrysOrderServiceApplication_v2.logStartupProfileInfo - No active profile set, falling back to default profiles: default
+23-08-2018 15:42:34.903 [main] INFO  o.s.b.c.e.AnnotationConfigEmbeddedWebApplicationContext.prepareRefresh - Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6293abcc: startup date [Thu Aug 23 15:42:34 IST 2018]; root of context hierarchy
+23-08-2018 15:42:35.438 [background-preinit] INFO  o.h.validator.internal.util.Version.<clinit> - HV000001: Hibernate Validator 5.3.5.Final
+23-08-2018 15:42:37.945 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.initialize - Tomcat initialized with port(s): 8070 (http)
+23-08-2018 15:42:37.967 [main] INFO  o.a.catalina.core.StandardService.log - Starting service [Tomcat]
+23-08-2018 15:42:37.969 [main] INFO  o.a.catalina.core.StandardEngine.log - Starting Servlet Engine: Apache Tomcat/8.5.16
+23-08-2018 15:42:38.224 [localhost-startStop-1] INFO  o.a.c.c.C.[.[localhost].[/order].log - Initializing Spring embedded WebApplicationContext
+23-08-2018 15:42:38.228 [localhost-startStop-1] INFO  o.s.web.context.ContextLoader.prepareEmbeddedWebApplicationContext - Root WebApplicationContext: initialization completed in 3325 ms
+23-08-2018 15:42:38.481 [localhost-startStop-1] INFO  o.s.b.w.s.ServletRegistrationBean.onStartup - Mapping servlet: 'dispatcherServlet' to [/]
+23-08-2018 15:42:38.481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'characterEncodingFilter' to: [/*]
+23-08-2018 15:42:38.481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+23-08-2018 15:42:38.481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'httpPutFormContentFilter' to: [/*]
+23-08-2018 15:42:38.481 [localhost-startStop-1] INFO  o.s.b.w.s.FilterRegistrationBean.configure - Mapping filter: 'requestContextFilter' to: [/*]
+23-08-2018 15:42:42.696 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.createNativeEntityManagerFactory - Building JPA container EntityManagerFactory for persistence unit 'default'
+23-08-2018 15:42:42.731 [main] INFO  o.h.jpa.internal.util.LogHelper.logPersistenceUnitInformation - HHH000204: Processing PersistenceUnitInfo [
+	name: default
+	...]
+23-08-2018 15:42:42.916 [main] INFO  org.hibernate.Version.logVersion - HHH000412: Hibernate Core {5.0.12.Final}
+23-08-2018 15:42:42.916 [main] INFO  org.hibernate.cfg.Environment.<clinit> - HHH000206: hibernate.properties not found
+23-08-2018 15:42:42.916 [main] INFO  org.hibernate.cfg.Environment.buildBytecodeProvider - HHH000021: Bytecode provider name : javassist
+23-08-2018 15:42:43.047 [main] INFO  o.h.annotations.common.Version.<clinit> - HCANN000001: Hibernate Commons Annotations {5.0.1.Final}
+23-08-2018 15:42:43.618 [main] INFO  org.hibernate.dialect.Dialect.<init> - HHH000400: Using dialect: org.hibernate.dialect.MySQL5Dialect
+23-08-2018 15:42:44.404 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean.buildNativeEntityManagerFactory - Initialized JPA EntityManagerFactory for persistence unit 'default'
+23-08-2018 15:42:46.167 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerAdapter.initControllerAdviceCache - Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@6293abcc: startup date [Thu Aug 23 15:42:34 IST 2018]; root of context hierarchy
+23-08-2018 15:42:46.636 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/track/code]}" onto public java.lang.String com.frys.action.RequestHandlerServlet.getOrderDetailsByTrackingCode(java.lang.String)
+23-08-2018 15:42:46.638 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/track/credit]}" onto public java.lang.String com.frys.action.RequestHandlerServlet.getOrderDetailsByCreditCardNumber(java.lang.String)
+23-08-2018 15:42:46.643 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+23-08-2018 15:42:46.644 [main] INFO  o.s.w.s.m.m.a.RequestMappingHandlerMapping.register - Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+23-08-2018 15:42:46.733 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23-08-2018 15:42:46.734 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23-08-2018 15:42:46.893 [main] INFO  o.s.w.s.h.SimpleUrlHandlerMapping.registerHandler - Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+23-08-2018 15:42:47.652 [main] INFO  o.s.j.e.a.AnnotationMBeanExporter.afterSingletonsInstantiated - Registering beans for JMX exposure on startup
+23-08-2018 15:42:47.785 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Initializing ProtocolHandler ["http-nio-8070"]
+23-08-2018 15:42:47.928 [main] INFO  o.a.coyote.http11.Http11NioProtocol.log - Starting ProtocolHandler ["http-nio-8070"]
+23-08-2018 15:42:48.092 [main] INFO  o.a.tomcat.util.net.NioSelectorPool.log - Using a shared selector for servlet write/read
+23-08-2018 15:42:48.147 [main] INFO  o.s.b.c.e.t.TomcatEmbeddedServletContainer.start - Tomcat started on port(s): 8070 (http)
+23-08-2018 15:42:48.156 [main] INFO  c.f.FrysOrderServiceApplication_v2.logStarted - Started FrysOrderServiceApplication_v2 in 13.915 seconds (JVM running for 14.464)
+23-08-2018 15:43:07.883 [http-nio-8070-exec-1] INFO  o.a.c.c.C.[.[localhost].[/order].log - Initializing Spring FrameworkServlet 'dispatcherServlet'
+23-08-2018 15:43:07.883 [http-nio-8070-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization started
+23-08-2018 15:43:08.010 [http-nio-8070-exec-1] INFO  o.s.web.servlet.DispatcherServlet.initServletBean - FrameworkServlet 'dispatcherServlet': initialization completed in 127 ms
+23-08-2018 15:43:08.129 [http-nio-8070-exec-1] INFO  o.s.c.a.AnnotationConfigApplicationContext.prepareRefresh - Refreshing org.springframework.context.annotation.AnnotationConfigApplicationContext@77b8be2f: startup date [Thu Aug 23 15:43:08 IST 2018]; root of context hierarchy
+23-08-2018 15:43:08.256 [http-nio-8070-exec-1] INFO  com.frys.util.DeliveryHelper.getDeliveryInfo - DeliveryUtil().getDeliveryInfo(): Getting DeliveryInfo of TrackCode: S7CN7TLU
+23-08-2018 15:43:08.257 [http-nio-8070-exec-1] INFO  com.frys.util.DeliveryHelper.hitGetService - DeliveryUtil.hitGetService(): Hitting url: https://api.deliv.co/v2/deliveries/S7CN7TLU?expand=signature,proof_of_delivery, Input: null
+23-08-2018 15:43:14.481 [http-nio-8070-exec-1] INFO  com.frys.util.DeliveryHelper.hitGetService - DeliveryUtil.hitGetService(): Response Code: 200, CAUSE: [Lorg.apache.commons.httpclient.Header;@4deab069
